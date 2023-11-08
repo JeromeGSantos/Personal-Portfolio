@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #E5E8E8 ;
+}
+
+/*Navbar*/
+#nav{
+  padding: 1% 10%;
+  background-color: #121111;
+}
+
+.con-fluid{
+  padding: 3% 15% 7%;
+}
+a.nav-link{
+  font-family: ''Arial, Helvetica, sans-serif'';
+  font-size: 1.3rem;
+  color:#EA7E63;
+}
+
+
+a.nav-link:hover{
+  color: #E5DFDE;
+  border-bottom: solid 1px #E5DFDE;
+}
+
+h5.navbar-brand{
+  color: #EA7E63;
+  font-size: 2rem;
+
+}
+
+#brand:hover{
+  color: #EA7E63;
+}
+
+
+#homepage{
+  height: 100vh;
+  background-color: #121111;
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  font-family: "Poppins";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#home{
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+/*About Section*/
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5DFDE;  
+  height: 100vh;
+}
+
+#about p{
+  color: #121111;
+  line-height: 40px;
+  font-size: 1.2rem;
+}
+
+#about span{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*Download button*/
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn28 {
+  background-image: linear-gradient(
+    to right,
+    #eb3941,
+    #f15e64,
+    #e14e53,
+    #e2373f
+  );
+  box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+
+/*Project Section*/
+
+#project{
+  background-color: #121111;
+  min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#project-card1, #project-card2, #project-card3 {
+  width: 22rem;
+  height: 320px;
+  padding: 10px;
+  background: #EA7E63;
+}
+.card-img-top {
+  height: 200px;
+}
+#badge {
+  background-color:  #121111;
+  color: #E5DFDE;
+}
+#modal-body {
+  padding: 10px 60px 60px 60px;
+}
+.modal-content {
+  background: linear-gradient(to bottom right,#EA7E63,#EA7E63);
+}
+
+#highlight, #highlight1, #highlight2, #highlight3 {
+  color: #E5DFDE;
+  font-weight: bold;
+}
+
+/*Section Footer*/
+#footer{
+  padding: 7% 15%;
+
+  background-color: #E5DFDE;
+  display: flex;
+  align-items: center;
+}
+
+.footer-link{
+  color: #EA7E63;
+}
+
+footer{
+  height: 100vh;
+  padding: 7% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5DFDE;
+}
+
+#footer-con{
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.feedback-icon {
+  margin-right: 3px;
+  background-color: #EA7E63;
+  border-radius: 100%;
+  padding: 2%;
+}
+.card-text {
+  font-size: 16px;
+  margin: 8px 0;
+  padding-bottom: 7%;
+  color: #121111;
+}
+#wrapper {
+  width: 618px;
+  height: 473px;
+} 
+#email{
+  margin-left: 130px;
+}
